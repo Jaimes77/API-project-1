@@ -1,0 +1,64 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(#00f5d4, #fee440, #f15bb5);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #5a189a;
+}
+
+#carouselFade {
+  margin-top: 25vh;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.viewport {
+  display: flex;
+  justify-content: space-between;
+  color: #5a189a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.pokeBox {
+  margin-top: 50vh;
+  text-align: center;
+  color: #fee440;
+}
+
+#pokeName {
+  background-color: #5a189a;
+  color: #fee440;
+  text-align: center;
+}
+
+#pokeBtn {
+  background-color: transparent;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00f5d4;
+  font-size: 20px;
+  font-style: bold;
+}
+
+::placeholder {
+  color: #00f5d4;
+}
+
+#search {
+  background-color: #5a189a;
+  text-align: center;
+}
+
+.search {
+  color: #fee440;
+}

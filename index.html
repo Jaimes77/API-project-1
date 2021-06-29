@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Evolutions</title>
+    <link href='pokemon.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Pokémon Evolutions</h1>
+
+    <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img id="evo1" src='' class="d-block w-50" alt="">
+            </div>
+            <div class="carousel-item">
+                <img id="evo2" src='' class="d-block w-50" alt="">
+            </div>
+            <div class="carousel-item">
+                <img id="evo3" src='' class="d-block w-50" alt="">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="viewport">DEVOLVE</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="viewport">EVOLVE</span>
+        </button>
+    </div>
+    <div class='pokeBox'>
+        <input id='pokeName' type='text' style='color: #ffe440' placeholder='Enter Pokémon Here!'>
+        <p>
+            <button id='pokeBtn'>SUBMIT</button>
+        </p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src='pokemon.js'></script>
+</body>
+
+</html>
