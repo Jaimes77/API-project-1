@@ -58,6 +58,7 @@ textarea {
 
 ::placeholder {
   color: #f5fbc9;
+  text-transform: initial;
 }
 
 .submit {
