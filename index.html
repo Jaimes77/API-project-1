@@ -2,50 +2,37 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokémon Evolutions</title>
-    <link href='pokemon.css' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Pokémon Evolutions</h1>
+    <div class="logo">
+        '
+        <img src="https://camo.githubusercontent.com/7f1f1e69bef239378a28e8aca7d1d7bd0890d37a7871d01135e2d044da6e2157/68747470733a2f2f692e696d6775722e636f6d2f415975745a4f462e706e67"
+            alt="Pokédex Logo" width="400" height="100" />
+    </div>
 
-    <div id="carouselFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img id="evo1" src='' class="d-block w-50" alt="">
-            </div>
-            <div class="carousel-item">
-                <img id="evo2" src='' class="d-block w-50" alt="">
-            </div>
-            <div class="carousel-item">
-                <img id="evo3" src='' class="d-block w-50" alt="">
+    <div class="cardimage">
+        <img src="https://i.pinimg.com/474x/78/66/07/7866071f8ae5c249b1e14fdadd15e08f.jpg" />
+        <div class="screen">
+            <img id="image" src="" alt="" />
+
+            <ul id="stats"></ul>
+
+            <div class="search">
+                <input id="search-input" type="text" placeholder="Enter Pokémon Here!" onfocus="this.value=''"
+                    value="" />
+                <button class="submit">Submit</button>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="viewport">DEVOLVE</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="viewport">EVOLVE</span>
-        </button>
-    </div>
-    <div class='pokeBox'>
-        <input id='pokeName' type='text' style='color: #ffe440' placeholder='Enter Pokémon Here!'>
-        <p>
-            <button id='pokeBtn'>SUBMIT</button>
-        </p>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
-    <script src='pokemon.js'></script>
+    <script src="script.js"></script>
 </body>
+
 
 </html>

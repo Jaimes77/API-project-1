@@ -1,0 +1,66 @@
+body {
+  background-color: #150704;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 2vh;
+}
+.cardimage {
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 235px;
+  width: 344px;
+  margin-top: 68px;
+}
+
+#image {
+  width: 344px;
+}
+
+#stats {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: -100px;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style: none;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 465px;
+}
+
+#search-input {
+  text-align: center;
+  background-color: #890620;
+  border: none;
+  height: 30px;
+}
+
+input,
+select,
+textarea {
+  color: #f5fbc9;
+}
+
+::placeholder {
+  color: #f5fbc9;
+}
+
+.submit {
+  background-color: #890620;
+  color: #f5fbc9;
+}
